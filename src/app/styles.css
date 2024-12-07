@@ -1,0 +1,102 @@
+/* Global Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #73b890;
+  }
+  
+  /* Navbar */
+  .navbar {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #1f2937; /* Tailwind's bg-gray-800 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .navbar a {
+    color: #ffffff;
+    text-decoration: underline;
+    margin: 0.5rem 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #90cdf4; /* Tailwind's hover:text-blue-200 */
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .hero img {
+    width: 450px;
+    height: 450px;
+    max-width: 100%;
+  }
+  
+  .hero h1 {
+    font-size: 1.875rem; /* Tailwind's text-2xl */
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-style: italic;
+    color: #2d3748; /* Tailwind's text-gray-800 */
+    text-decoration: underline;
+  }
+  
+  .hero p {
+    font-size: 1.125rem; /* Tailwind's text-lg */
+    line-height: 1.75;
+  }
+  
+  /* Buttons */
+  .button {
+    color: #4299e1; /* Tailwind's text-blue-400 */
+    text-decoration: underline;
+    font-family: monospace;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+  }
+  
+  .button:hover {
+    color: #2b6cb0; /* Tailwind's hover:text-blue-700 */
+  }
+  
+  /* Forms */
+  .form-container input {
+    border: 2px solid #cbd5e0; /* Tailwind's border-gray-300 */
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .form-container input[type="submit"] {
+    font-size: 1.5rem; /* Tailwind's text-2xl */
+    color: #000000;
+    transition: color 0.3s ease;
+  }
+  
+  .form-container input[type="submit"]:hover {
+    color: #3182ce; /* Tailwind's hover:text-blue-500 */
+  }
+  
+  /* Footer Section */
+  .footer {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
